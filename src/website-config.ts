@@ -49,8 +49,8 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
+  title: 'AMZBox Blog - Update News, Tutorials & Tips Wordpress',
+  description: 'Update your tech news on my blog. And you can find tutorials and tips about wordpress blog',
   coverImage: 'img/blog-cover.png',
   logo: 'img/ghost-logo.png',
   lang: 'en',
