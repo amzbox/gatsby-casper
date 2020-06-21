@@ -10,6 +10,9 @@ import { SocialLink, SocialLinkFb } from '../../styles/shared';
 import config from '../../website-config';
 import { Facebook } from '../icons/facebook';
 import { Twitter } from '../icons/twitter';
+import { Twitter } from '../icons/instagram';
+import { Twitter } from '../icons/pinterest';
+import { Twitter } from '../icons/youtube';
 import { SubscribeModal } from '../subscribe/SubscribeModal';
 import { SiteNavLogo } from './SiteNavLogo';
 
