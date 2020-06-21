@@ -13,12 +13,7 @@ export const Footer: React.FC = () => {
     <footer css={[outer, SiteFooter]}>
       <div css={[inner, SiteFooterContent]}>
         <section className="copyright">
-          <Link to="/">AMBox Blog</Link> &copy; {new Date().getFullYear()}{' '} - 
-          {config.footer && (
-            <Link to="/">
-              Update News, Tutorials & Tips Wordpress {config.footer}
-            </Link>
-          )}
+          <Link to="/">AMBox Blog</Link> &copy; {new Date().getFullYear()}{' '} - Update News, Tutorials & Tips Wordpress
         </section>
         <SiteFooterNav>
           <Link to="https://ambox.id">AMBox Official</Link>
@@ -34,7 +29,7 @@ export const Footer: React.FC = () => {
           )}
 
           <a href="https://github.com/scttcper/gatsby-casper" target="_blank" rel="noopener noreferrer">
-            Casper
+            Gatsby Casper
           </a>
 
           <a href="/rss.xml">RSS</a>
